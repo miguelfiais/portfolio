@@ -19,7 +19,7 @@ export const BoxHeader = styled.header`
         line-height: 42px;
         letter-spacing: -0.045em;
     }
-    nav ul{
+    nav ul:nth-child(2){
         display: flex;
         gap: 60px;
     }
@@ -33,54 +33,39 @@ export const BoxHeader = styled.header`
     a:hover{
         color: #26979f;
     }
-    button{
-        padding: 10px 25px;
+    .openMenu{
+        display: none;
         background: transparent;
-        border: 2px solid #26979f;
         color: #26979f;
-        border-radius: 8px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 17px;
+        svg{
+            width: 40px;
+            height: auto;
+        }
     }
-    button:hover{
-        background: #26979f;
+    .openMenu:hover{
         color: #eae2cf;
-        transform: scale(0.95);
-        transition: 0.6s;
-    }
-    button:active{
-        opacity: 0.8;
     }
     @media (max-width: 1000px ){
         nav{
-            padding: 0 40px;
+            padding: 0 20px;
         }
-        nav ul{
+        nav ul:nth-child(2){
             display: none;
+        }
+        .openMenu{
+            display: block;
         }
     }
     @media (max-width: 800px ){
-        nav{
-            padding: 0 20px;
-        }
         nav h1{
             font-size: 30px;
             line-height: 36px;
-        }
-        button{
-            padding: 10px 20px;
-            font-size: 12px;
-            line-height: 14px;
         }
     }
     @media (max-width: 500px ){
         nav h1{
             font-size: 26px;
             line-height: 30px;
-        }
-        button{
-            padding: 10px 15px;
         }
     }
 `
