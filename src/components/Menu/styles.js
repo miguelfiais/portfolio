@@ -12,7 +12,8 @@ export const MenuMobile = styled.ul`
     align-items: center;
     gap: 40px;
     background: rgb(32,32,32);
-    background: linear-gradient(0deg, rgba(32,32,32,0.95) 0%, rgba(16,16,16,0.95) 100%);
+    background: linear-gradient(0deg, rgba(32,32,32,0.90) 0%, rgba(16,16,16,0.90) 100%);
+    backdrop-filter: blur(4px);
     height: 0;
     overflow: hidden;
     opacity: 0;
@@ -37,6 +38,5 @@ export const MenuMobile = styled.ul`
     ${({isVisible}) => isVisible && css`
         opacity: 1;
         height: 100%;
-        
     `}
 `

@@ -29,6 +29,13 @@ export const BoxHeader = styled.header`
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        svg{
+            width: 20px;
+            height: auto;
+        }
     }
     a:hover{
         color: #26979f;
