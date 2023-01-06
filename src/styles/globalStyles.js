@@ -12,6 +12,16 @@ const Global = createGlobalStyle`
     scroll-behavior: smooth;
     overflow-x: hidden;
     }
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #000;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #26979F;
+        border-radius: 8px;
+    }
     .container{
         width: 100vw;
         min-height: 100vh;

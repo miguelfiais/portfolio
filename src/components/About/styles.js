@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerAbout = styled.div`
-    padding: 100px 20px 0;
+    padding: 100px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
