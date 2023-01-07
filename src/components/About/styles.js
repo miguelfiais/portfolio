@@ -18,7 +18,7 @@ export const BoxInfo = styled.div`
         border-radius: 20px;
     }
     p{
-        max-width: 700px;
+        max-width: 800px;
         color: #eae2cf;
         font-size: 14px;
     }
@@ -26,9 +26,6 @@ export const BoxInfo = styled.div`
         flex-direction: column;
         img{
             max-width: 200px;
-        }
-        p{
-           max-width: 800px;
         }
     }
     @media (max-width: 800px){
