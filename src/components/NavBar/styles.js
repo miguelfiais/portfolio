@@ -5,6 +5,7 @@ export const BoxHeader = styled.header`
     background-color: rgba(10, 10, 10, 0.8);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
+    z-index: 9;
     nav{
         display: flex;
         justify-content: space-between;
