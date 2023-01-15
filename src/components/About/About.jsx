@@ -9,7 +9,11 @@ const About = () => {
        <Title title="SOBRE MIM"/>
        <BoxInfo>
           <img src={me} alt="foto-de-perfil" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laborum obcaecati architecto, hic porro numquam, reiciendis omnis sunt eum blanditiis nobis, rerum cumque deleniti laudantium nam beatae? Ut, tempora maxime? Vitae, quasi. Vero, eligendi! Beatae modi iure architecto dolorum quis! </p>
+          <div>
+            <p>Meu nome é Miguel Fiais, tenho 21 anos, moro em Cruz das Almas-BA.</p>
+            <br />
+            <p>Sou um desenvolvedor Front-End focado no desenvolvimento Web. Gosto de solucionar problemas, criar novas aplicações através dos códigos e lidar com inovações na área de tecnologia. Estou constantemente aprimorando meus conhecimentos e também aprendendo novas tecnologias que fazem parte Back-End para eu ser um profissional Full-Stack.</p>
+          </div>
         </BoxInfo>
         <Title title="CONHECIMENTOS"/>
         <Skills />
