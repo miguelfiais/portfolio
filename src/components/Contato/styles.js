@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerContato = styled.div`
+    width: 100%;
     min-height: 400px;
     padding: 20px;
     display: flex;

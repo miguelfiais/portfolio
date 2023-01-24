@@ -1,10 +1,14 @@
 import { Item, Modal } from './styles'
 import { MdClose } from "react-icons/md";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const ItemProject = ({template, name, icon, icon2, icon3, data, descrition, link1, link2}) => {
 
   const [modalOpen, setModalOpen] = useState(false)
+
+  useEffect(() => {
+    document.body.style.overflowY = modalOpen ? "hidden" : "auto"
+  }, [modalOpen])
 
   return (
     <Item>

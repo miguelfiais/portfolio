@@ -9,12 +9,10 @@ const Global = createGlobalStyle`
         font-family: 'Montserrat', sans-serif;
     }
     html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+        scroll-behavior: smooth;
     }
     ::-webkit-scrollbar {
         width: 8px;
-        height: 6px;
     }
     ::-webkit-scrollbar-track {
         background-color: #000;
@@ -24,7 +22,7 @@ const Global = createGlobalStyle`
         border-radius: 8px;
     }
     .container{
-        width: 100vw;
+        width: 100%;
         min-height: 100vh;
         height: 100%;
         background: rgb(32,32,32);

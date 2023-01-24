@@ -3,8 +3,13 @@ import { IoPersonOutline } from "react-icons/io5";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { MenuMobile } from "./styles";
+import { useEffect } from "react";
 
 const Menu = ({menuisVisible, setMenuisVisible}) => {
+
+  useEffect(() => {
+    document.body.style.overflowY = menuisVisible ? "hidden" : "auto"
+  }, [menuisVisible])
 
   return (
     <MenuMobile isVisible={menuisVisible}>
