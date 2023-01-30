@@ -7,6 +7,8 @@ import templateCalc from '../../assets/templateCalc.png'
 import templateGuia from '../../assets/templateGuia.png'
 import templateEdie from '../../assets/templateEdie.png'
 import templateNike from '../../assets/templateNike.png'
+import templateFlix from '../../assets/templateFlix.png'
+import templateWeather from '../../assets/templateWeather.png'
 
 import { SiCss3, SiJavascript, SiStyledcomponents, SiNodedotjs, SiHtml5, SiReact} from "react-icons/si";
 import { BoxButton, ContainerProjects, Gallery } from "./styles"
@@ -20,6 +22,13 @@ const Projects = () => {
     <ContainerProjects id="projects" className="container">
         <Title title="PROJETOS"/>
         <Gallery isOpen={isOpen}>
+
+          <ItemProject template={templateWeather} name= "Weather"  descrition='O projeto é capaz de obter informações climáticas, como temperatura, estado do vento, pressão do ar, visibilidade, umidade e as previsões climáticas para os próximos 5 dias, assim que a pessoa digitar o nome de alguma cidade. A interface foi criada de forma simples e intuitiva, com campo de busca para digitar o nome da cidade e o botão de busca, assim que o usuário digita e busca as informações são exibidas logo em seguida. O projeto foi desenvolvido com React e usa a API do weatherapi.com para obter as informações climáticas.' link1="https://github.com/miguelfiais/weather" link2="https://mfweather.netlify.app/"
+          icon={<SiReact />} icon2={<SiStyledcomponents />} data="23/01/2023"/>
+
+          <ItemProject template={templateFlix} name= "Rocketflix"  descrition='Desenvolvi o projeto com React para resolver um desafio da Rocketseat. Utilizei a API do TMDB para exibir filmes aleatórios ao clicar em "Encontrar Filme". Estudei a documentação da API antes de começar o projeto. Criei uma interface simples com React e implementei a lógica para requisição e tratamento da resposta da API. Enfrentei desafios, mas consegui completar o projeto com sucesso.' link1="https://github.com/miguelfiais/rocketflix" link2="https://mfrocketflix.netlify.app/"
+          icon={<SiReact />} icon2={<SiStyledcomponents />} data="21/01/2023"/>
+
           <ItemProject template={templateTodo2} name= "To Do List"  descrition="Projeto desenvolvido no DevClub, com a finalidade de aprender React. Neste projeto o usuário adiciona tarefas do dia a dia, alterando o estado quando concluída e também deletar alguma tarefa. Com isso, aprendi sobre os Hooks do React o uso do useState, também a estilizar com Styled-components (CSS in JS), e definir CSS atrvés de algum dado através das props." link1="https://github.com/miguelfiais/to-do-list" link2="https://todolistreactm.netlify.app/"
           icon={<SiReact />} icon2={<SiStyledcomponents />} data="17/09/2022"/>
 
