@@ -1,5 +1,5 @@
 import Title from "../Title/Title"
-import templateTodo2 from '../../assets/templateTodo2.png'
+import templateTodo from '../../assets/templateTodo.png'
 import templateConvert from '../../assets/templateConvert.png'
 import templateBlog from '../../assets/templateBlog.png'
 import templateForm from '../../assets/templateForm.png'
@@ -26,11 +26,11 @@ const Projects = () => {
           <ItemProject template={templateWeather} name= "Weather"  descrition='O projeto é capaz de obter informações climáticas, como temperatura, estado do vento, pressão do ar, visibilidade, umidade e as previsões climáticas para os próximos 5 dias, assim que a pessoa digitar o nome de alguma cidade. A interface foi criada de forma simples e intuitiva, com campo de busca para digitar o nome da cidade e o botão de busca, assim que o usuário digita e busca as informações são exibidas logo em seguida. O projeto foi desenvolvido com React e usa a API do weatherapi.com para obter as informações climáticas.' link1="https://github.com/miguelfiais/weather" link2="https://mfweather.netlify.app/"
           icon={<SiReact />} icon2={<SiStyledcomponents />} data="23/01/2023"/>
 
+          <ItemProject template={templateTodo} name= "To Do List"  descrition='Eu criei um aplicativo de lista de tarefas usando React que me permite adicionar, atualizar e excluir tarefas. Além disso, eu incluí três modos de exibição diferentes: "all", "active" e "completed". Para alternar entre os modos de exibição, usei a biblioteca React Router DOM para criar rotas diferentes para cada modo. Para garantir que as tarefas sejam salvas mesmo após a atualização da página, implementei o uso do LocalStorage do navegador. Por fim, para permitir que diferentes componentes da aplicação acessem informações de contexto, utilizei a API useContext do React. Com isso, pude compartilhar informações sobre as tarefas entre os diferentes componentes, tornando a construção do aplicativo mais fácil e intuitiva.' link1="https://github.com/miguelfiais/todo-list" link2="https://mftodolist.netlify.app/"
+          icon={<SiReact />} icon2={<SiStyledcomponents />} data="17/09/2022"/>
+
           <ItemProject template={templateFlix} name= "Rocketflix"  descrition='Desenvolvi o projeto com React para resolver um desafio da Rocketseat. Utilizei a API do TMDB para exibir filmes aleatórios ao clicar em "Encontrar Filme". Estudei a documentação da API antes de começar o projeto. Criei uma interface simples com React e implementei a lógica para requisição e tratamento da resposta da API. Enfrentei desafios, mas consegui completar o projeto com sucesso.' link1="https://github.com/miguelfiais/rocketflix" link2="https://mfrocketflix.netlify.app/"
           icon={<SiReact />} icon2={<SiStyledcomponents />} data="21/01/2023"/>
-
-          <ItemProject template={templateTodo2} name= "To Do List"  descrition="Projeto desenvolvido no DevClub, com a finalidade de aprender React. Neste projeto o usuário adiciona tarefas do dia a dia, alterando o estado quando concluída e também deletar alguma tarefa. Com isso, aprendi sobre os Hooks do React o uso do useState, também a estilizar com Styled-components (CSS in JS), e definir CSS atrvés de algum dado através das props." link1="https://github.com/miguelfiais/to-do-list" link2="https://todolistreactm.netlify.app/"
-          icon={<SiReact />} icon2={<SiStyledcomponents />} data="17/09/2022"/>
 
           <ItemProject template={templateConvert} name= "Convert Money" descrition="O Convert Money foi um projeto desenvolvido no curso do DevClub. Foi a partir dele que eu tive o primeiro contato com a DOM (Document Obeject Model), com objetivo de  manipular os elementos do HTML de forma dinâmina por determinado evento, através do JavaScript. Além disso, foi muito importante para treinar a lógica a de programação."  link1="https://github.com/miguelfiais/ConvertMoney" link2="https://miguelfiais.github.io/ConvertMoney/"
           icon={<SiHtml5 />} icon2={<SiCss3 />} icon3={<SiJavascript />}  data="07/07/2022"/>
@@ -50,7 +50,6 @@ const Projects = () => {
           link1="https://github.com/miguelfiais/Page-Nike" 
           link2="https://miguelfiais.github.io/Page-Nike/"  icon={<SiHtml5 />} icon2={<SiCss3 />} icon3={<SiJavascript />} data="05/09/2022"/>
 
-          
           <ItemProject template={templateForm} name= "React Form" descrition="Nesse projeto fiz um formulário no React. Onde utilizei o React Hook Forms que facilita muito na criação de formulário, fazendo validação dos campos, como criar um Schema do formulário e também como verificar todos os dados do formulário."  link1="https://github.com/miguelfiais/forms-react" link2="https://flourishing-platypus-ff8700.netlify.app/"
           icon={<SiReact />} icon2={<SiStyledcomponents />} data="10/10/2022"/> 
 
