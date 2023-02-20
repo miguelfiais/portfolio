@@ -23,7 +23,6 @@ const Global = createGlobalStyle`
     }
     .container{
         width: 100%;
-        min-height: 100vh;
         height: 100%;
         background: rgb(32,32,32);
         background: linear-gradient(0deg,rgb(32,32,32) 0%,rgb(16,16,16) 100%);
