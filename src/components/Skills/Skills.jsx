@@ -1,6 +1,6 @@
 import React from 'react'
 import ItemSkills from '../ItemSkills/ItemSkills'
-import { SiCss3, SiJavascript, SiStyledcomponents, SiNodedotjs, SiHtml5, SiReact, SiGit} from "react-icons/si";
+import { SiCss3, SiJavascript, SiStyledcomponents, SiNodedotjs, SiHtml5, SiReact, SiGit, SiDocker, SiPostgresql, SiMongodb} from "react-icons/si";
 import { ContainerSkills } from './styles';
 
 const Skills = () => {
@@ -12,6 +12,9 @@ const Skills = () => {
         <ItemSkills name="React" icon={<SiReact/>}/>
         <ItemSkills name="Node" icon={<SiNodedotjs/>}/>
         <ItemSkills name="Styled-Components" icon={<SiStyledcomponents/>}/>
+        <ItemSkills name="Docker" icon={<SiDocker/>}/>
+        <ItemSkills name="PostgreSQL" icon={<SiPostgresql/>}/>
+        <ItemSkills name="MongoDB" icon={<SiMongodb/>}/>
         <ItemSkills name="Git" icon={<SiGit/>}/>
     </ContainerSkills>
   )

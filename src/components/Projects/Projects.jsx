@@ -53,9 +53,6 @@ const Projects = () => {
           <ItemProject template={templateForm} name= "React Form" descrition="Nesse projeto fiz um formulário no React. Onde utilizei o React Hook Forms que facilita muito na criação de formulário, fazendo validação dos campos, como criar um Schema do formulário e também como verificar todos os dados do formulário."  link1="https://github.com/miguelfiais/forms-react" link2="https://flourishing-platypus-ff8700.netlify.app/"
           icon={<SiReact />} icon2={<SiStyledcomponents />} data="10/10/2022"/> 
 
-          <ItemProject template={templateBlog} name= "Rocket Blog" descrition="Landing page de um site de nóticias, layout extraido do figma. Esse projeto foi um dos desafios da Rocketseat com a finalidade de praticar as tecnologias HTML e CSS. Também fiz o uso de JavaScript para fazer um menu mobile." link1="https://github.com/miguelfiais/Rocket-Blog" link2="https://miguelfiais.github.io/Rocket-Blog/"
-          icon={<SiHtml5 />} icon2={<SiCss3 />} icon3={<SiJavascript />}  data="07/08/2022" />
-
         </Gallery>
         <BoxButton isOpen={isOpen}>
           <button onClick={()=> setIsOpen(!isOpen)}>Mostrar mais</button>
