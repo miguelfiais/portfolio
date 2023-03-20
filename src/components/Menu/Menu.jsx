@@ -12,12 +12,12 @@ const Menu = ({menuisVisible, setMenuisVisible}) => {
   }, [menuisVisible])
 
   return (
-    <MenuMobile isVisible={menuisVisible}>
-        <button onClick={()=> setMenuisVisible(!menuisVisible)}><AiOutlineClose/></button>
-        <li><a href="#home" onClick={()=> setMenuisVisible(!menuisVisible)}> <AiOutlineHome/> Ínicio</a></li>
-        <li><a href="#about" onClick={()=> setMenuisVisible(!menuisVisible)}><IoPersonOutline/> Sobre mim</a></li>
-        <li><a href="#projects" onClick={()=> setMenuisVisible(!menuisVisible)}><MdOutlineWorkOutline/> Projetos</a></li>
-        <li><a href="#contato" onClick={()=> setMenuisVisible(!menuisVisible)}><FiPhoneCall/> Contato</a></li>
+    <MenuMobile isVisible={menuisVisible} onClick={()=> setMenuisVisible(!menuisVisible)}>
+        <button><AiOutlineClose/></button>
+        <li><a href="#home" > <AiOutlineHome/> Ínicio</a></li>
+        <li><a href="#about"><IoPersonOutline/> Sobre mim</a></li>
+        <li><a href="#projects"><MdOutlineWorkOutline/> Projetos</a></li>
+        <li><a href="#contato"><FiPhoneCall/> Contato</a></li>
     </MenuMobile>
   )
 }

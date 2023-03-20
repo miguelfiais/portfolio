@@ -6,7 +6,7 @@ const Home = () => {
     <ContainerHome className="container" id="home">
       <div>
             <h1>Miguel <span>Fiais</span></h1>
-            <a href="https://git.io/typing-svg" target="_blank"><img src="https://readme-typing-svg.demolab.com?font=Raleway&weight=700&size=24&pause=2000&color=EAE2CF&vCenter=true&width=350&lines=DESENVOLVEDOR+FRONT+END" alt="Typing SVG" /></a>
+            <h3>DESENVOLVEDOR FRONT-END</h3>
             <BoxSocials>
               <a href="https://www.instagram.com/miguelfiais/" target="_blank"><BsInstagram /></a>
               <a href="https://www.linkedin.com/in/miguel-fiais/" target="_blank"><BsLinkedin /></a>
